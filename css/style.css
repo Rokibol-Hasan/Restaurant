@@ -1,0 +1,637 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+h1,
+h2,
+h3 {
+  font-family: "Times New Roman", Times, serif !important;
+}
+p {
+  font-family: "Times New Roman", Times, serif !important;
+  font: 400;
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+ul li {
+  display: inline;
+}
+img.logo {
+  width: 100px;
+}
+nav {
+  border-top: 3px solid red;
+  background-color: white;
+}
+.navbar-nav .nav-link {
+  padding: 20px 20px !important;
+  font-size: 18px;
+  font-weight: 600;
+  color: red !important;
+}
+
+.hero {
+  background-image: url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  background-color: rgba(50, 70, 80, 0.7);
+  background-blend-mode: soft-light;
+}
+.hero-content {
+  color: white;
+  padding: 200px 0px;
+}
+.hero-content .hero-text {
+  padding: 70px 0px;
+}
+.hero-content .hero-text h1 {
+  font-family: Cursive;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+.hero-content .hero-text p {
+  text-align: center;
+  font-size: 16px;
+}
+.hero-content .hero-button {
+  text-align: center;
+}
+.hero-content .hero-button a {
+  padding: 10px 50px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.set-menu .set-menu-inner {
+  background-color: white;
+  margin-top: -60px;
+  padding: 50px 20px 80px 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.set-menu .title h2 {
+  font-size: 50px;
+  text-align: center;
+  background: url(../images/border.png) center bottom no-repeat;
+  background-size: 400px;
+  padding: 0px 0px 50px 0px;
+  color: #885f0f;
+}
+
+.card-1 {
+  background: url(../images/burger.jpg) center top no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 100px 100px;
+  margin: 10px 10px;
+  overflow: hidden;
+  background-color: rgba(50, 70, 80, 0.7);
+  background-blend-mode: soft-light;
+}
+.card-2 {
+  background: url(../images/pizza.jpg) center top no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 100px 100px;
+  margin: 10px 10px;
+  overflow: hidden;
+  background-color: rgba(50, 70, 80, 0.7);
+  background-blend-mode: soft-light;
+}
+.card-3 {
+  background: url(../images/combo.jpg) center top no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 100px 100px;
+  margin: 10px 10px;
+  overflow: hidden;
+  background-color: rgba(50, 70, 80, 0.7);
+  background-blend-mode: soft-light;
+}
+[class*="card"] {
+  padding-top: 100px;
+  margin-top: 60px;
+}
+[class*="card"]:hover {
+  overflow: hidden;
+  background-color: rgba(13, 15, 16, 0.7);
+  background-blend-mode: soft-light;
+}
+.set-menu .set-menu-button {
+  text-align: center;
+  margin-top: 40px;
+}
+.set-menu .set-menu-button a {
+  padding: 15px 15px 15px 15px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.set-menu .btn-info {
+  background-color: white !important;
+  border: 2px solid red !important;
+  color: red;
+}
+
+.set-menu .btn-info:hover {
+  background-color: red !important;
+  color: white;
+}
+.about-us {
+  background: url(../images/about.jpg) center top no-repeat;
+  background-size: cover;
+}
+.about-inner {
+  text-align: left;
+  padding: 70px 0px;
+  color: white;
+}
+.about-inner h2 {
+  padding: 20px 0px;
+}
+.about-inner p {
+  text-align: justify;
+  padding: 20px 0px;
+}
+.about-button .btn-info {
+  border: 1px solid white !important;
+  padding: 15px 15px;
+  background: transparent !important;
+}
+
+.special-offer-inner {
+  padding: 80px 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.offer-left {
+  padding-top: 30px;
+}
+.offer-left img {
+  width: 100%;
+}
+.offer-content {
+  background: url(../images/border.png) left bottom no-repeat;
+  background-size: 175px;
+  padding: 20px 0px;
+}
+
+.offer-content h2 {
+  color: red;
+}
+.offer-right p {
+  color: red;
+  text-align: justify;
+  padding: 20px 0px;
+}
+
+.offer-right-circle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.offer-right-circle img {
+  width: 100%;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+/* .offer-right img {
+  width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+} */
+
+.catering-service {
+  background: url(../images/catering.jpg) center top no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-color: rgba(13, 15, 16, 0.7);
+  background-blend-mode: soft-light;
+}
+.catering-service .catering-inner {
+  color: white;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.catering-service .catering-inner h4 {
+  text-align: center;
+}
+.catering-service .catering-inner h1 {
+  text-align: center;
+}
+
+.events {
+}
+.events .events-full {
+  margin-top: -70px;
+  background-color: white;
+  padding: 40px 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.events .events-inner {
+  padding: 55px 0px;
+}
+.events .events-inner .events-left {
+}
+.events .events-inner .events-left img {
+  width: 100%;
+}
+.events .events-inner .events-right {
+}
+.events .events-inner .events-right .events-right-content {
+  background: url(../images/border.png) left bottom no-repeat;
+  background-size: 250px;
+  padding: 20px 0px;
+}
+.events .events-inner .events-right p {
+  text-align: justify;
+  padding: 15px 0px;
+}
+.events .events-inner .events-right a.btn-info {
+  background: transparent;
+  color: black;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.food-calling {
+  background: url(../images/random3.jpg) center top no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-color: rgba(13, 15, 16, 0.7);
+  background-blend-mode: soft-light;
+}
+.food-calling .calling-inner {
+  text-align: center;
+  color: white;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.food-calling .calling-inner h4 {
+}
+.food-calling .calling-inner h1 {
+}
+
+.table-book-inner {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.table-book-right {
+}
+.table-book-right img {
+  width: 100%;
+  padding: 100px 100px 0px 100px;
+}
+.table-book-content {
+  background: url(../images/border.png) left bottom no-repeat;
+  background-size: 290px;
+  padding: 0px 0px 20px 0px;
+}
+
+.table-book-content h2 {
+  color: red;
+}
+.table-book-left {
+  padding: 100px 115px 0px 115px;
+}
+.table-book-left form {
+  padding: 40px 0px;
+}
+.table-book-left form input {
+  width: 100%;
+  padding: 5px 0px;
+  border: 2px solid #00000040;
+}
+.table-book-left form input::placeholder {
+  padding-left: 5px;
+}
+.table-book-left form .form-group {
+  padding: 7px 0px;
+}
+
+.table-book-left a.btn-info {
+  background: red;
+  border: none;
+}
+
+.footer {
+  background: url(../images/about.jpg) center top no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+.footer-inner p {
+  text-align: center;
+}
+.footer-content {
+  padding: 20px 0px;
+}
+.footer-inner p img {
+  width: 300px;
+  height: 300px;
+  margin-top: -100px;
+}
+.footer-inner ul li {
+  display: list-item;
+  font-size: 18px;
+}
+.footer-inner a.btn-info {
+  background: white;
+  color: black;
+  padding: 0px 5px;
+  margin: 10px 0px;
+  border: none;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 30px 0px;
+}
+.footer-bottom ul li a {
+  color: white;
+  text-decoration: none;
+}
+.footer-bottom ul li i {
+  font-size: 20px;
+  padding: 0px 10px;
+}
+
+@media (min-width: 1281px) {
+  /* CSS */
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .table-book-inner {
+    padding: 40px;
+  }
+  .table-book-left {
+    padding: 30px 70px 0px 40px;
+  }
+  .table-book-right img {
+    padding: 30px 45px 0px 30px;
+  }
+
+  [class*="card"] {
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+  .card-1,
+  .card-2,
+  .card-3 {
+    padding: 0px;
+    margin: 0px;
+  }
+  .card-1 h3,
+  .card-2 h3,
+  .card-3 h3 {
+    padding: 70px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navbar-nav .nav-link {
+    padding: 5px 10px 5px 0px !important;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .hero-content .hero-button a {
+    padding: 5px 25px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .set-menu .title h2 {
+    font-size: 40px;
+    background-size: 300px;
+    padding: 0px 0px 40px 0px;
+  }
+  .set-menu-inner .title {
+    padding: 0px 0px 20px 0px;
+  }
+  .set-menu .set-menu-button a {
+    padding: 5px 15px 5px 15px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .about-inner {
+    padding: 40px 0px 40px 50px;
+  }
+  img.logo {
+    width: 100%;
+    height: 70px;
+  }
+  .hero-content {
+    padding: 0px 0px 110px 0px;
+  }
+  .hero-content .hero-text {
+    padding: 70px 0px 20px 0px;
+  }
+
+  .table-book-right img {
+    width: 100%;
+    padding: 30px 0px 0px 0px;
+  }
+  .table-book-left {
+    padding: 30px 0px 0px 0px;
+  }
+  .table-book-inner {
+    padding: 20px;
+  }
+
+  [class*="card"] {
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+  .card-1,
+  .card-2,
+  .card-3 {
+    padding: 0px;
+    margin: 0px;
+  }
+  .card-1 h3,
+  .card-2 h3,
+  .card-3 h3 {
+    padding: 70px 0px 70px 0px;
+  }
+}
+
+/* @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .card-1,.card-2,.card-3 {
+    padding: 0px;
+    margin: 0px;
+}
+.card-1 h3,.card-2 h3,.card-3 h3 {
+  padding: 70px 0px 70px 0px;
+}
+} */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  img.logo {
+    width: 100%;
+    height: 60px;
+  }
+  .navbar-nav .nav-link {
+    padding: 5px 0px 5px 0px !important;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .hero-content {
+    padding: 50px 0px 99px 0px;
+  }
+  .hero-content .hero-text {
+    padding: 20px 0px 20px 0px;
+  }
+  .hero-content .hero-button a {
+    padding: 5px 25px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .hero-content .hero-text h1 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .about-inner {
+    padding: 30px 40px;
+  }
+  .special-offer-inner {
+    padding: 40px 20px;
+  }
+  .catering-service .catering-inner {
+    padding: 100px 0 100px 0px;
+  }
+  .catering-service .catering-inner h4 {
+    font-size: 18px;
+  }
+  .catering-service .catering-inner h1 {
+    font-size: 25px;
+  }
+  .food-calling .calling-inner {
+    padding: 50px 0px 50px 0px;
+  }
+  .table-book-left {
+    padding: 40px 50px 0px 50px;
+  }
+  .table-book-right img {
+    padding: 0px 50px 50px 50px;
+  }
+  .footer-inner p img {
+    height: auto;
+    margin-top: 0px;
+    width: 45%;
+    padding: 25px 0px 0px 0px;
+  }
+  .footer-inner ul li {
+    font-size: 13px;
+  }
+  .events .events-full {
+    padding: 0px 30px;
+  }
+
+  .card-1,
+  .card-2,
+  .card-3 {
+    padding: 0px;
+    margin: 10px;
+  }
+  .card-1 h3,
+  .card-2 h3,
+  .card-3 h3 {
+    padding: 70px 0px 70px 0px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  img.logo {
+    width: 100%;
+    height: 60px;
+  }
+  .navbar-nav .nav-link {
+    padding: 5px 0px 5px 0px !important;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .hero-content {
+    padding: 50px 0px 99px 0px;
+  }
+  .hero-content .hero-text {
+    padding: 20px 0px 20px 0px;
+  }
+  .hero-content .hero-button a {
+    padding: 5px 25px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .hero-content .hero-text h1 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .about-inner {
+    padding: 30px 40px;
+  }
+  .special-offer-inner {
+    padding: 40px 20px;
+  }
+  .catering-service .catering-inner {
+    padding: 100px 0 100px 0px;
+  }
+  .catering-service .catering-inner h4 {
+    font-size: 18px;
+  }
+  .catering-service .catering-inner h1 {
+    font-size: 25px;
+  }
+  .food-calling .calling-inner {
+    padding: 50px 0px 50px 0px;
+  }
+  .table-book-left {
+    padding: 40px 50px 0px 50px;
+  }
+  .table-book-right img {
+    padding: 0px 50px 50px 50px;
+  }
+  .footer-inner p img {
+    height: auto;
+    margin-top: 0px;
+    width: 45%;
+    padding: 25px 0px 0px 0px;
+  }
+  .footer-inner ul li {
+    font-size: 13px;
+  }
+  .events .events-full {
+    padding: 0px 30px;
+  }
+  .card-1,
+  .card-2,
+  .card-3 {
+    padding: 0px;
+    margin: 10px;
+  }
+  .card-1 h3,
+  .card-2 h3,
+  .card-3 h3 {
+    padding: 70px 0px 70px 0px;
+  }
+}
