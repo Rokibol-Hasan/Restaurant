@@ -26,9 +26,13 @@ ul {
 ul li {
   display: inline;
 }
-img.logo {
+/* img.logo {
+  width: ;
+} */
+nav img{
   width: 100px;
 }
+
 nav {
   border-top: 3px solid red;
   background-color: white;
@@ -548,7 +552,15 @@ nav {
   .events .events-full {
     padding: 0px 30px;
   }
-
+  #first{
+    order: 1;
+  }
+  #last{
+    order: 2;
+  }
+.events .events-inner {
+  padding: 18px 0px 20px 0px;
+}
   .card-1,
   .card-2,
   .card-3 {
@@ -563,6 +575,7 @@ nav {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+
   img.logo {
     width: 100%;
     height: 60px;
@@ -623,6 +636,16 @@ nav {
   .events .events-full {
     padding: 0px 30px;
   }
+  #first{
+    order: 1;
+  }
+  #last{
+    order: 2;
+  }
+.events .events-inner {
+  padding: 18px 0px 20px 0px;
+}
+
   .card-1,
   .card-2,
   .card-3 {
@@ -634,4 +657,15 @@ nav {
   .card-3 h3 {
     padding: 70px 0px 70px 0px;
   }
+}
+@media only screen and (max-width: 320px) {
+  #first{
+    order: 1;
+  }
+  #last{
+    order: 2;
+  }
+.events .events-inner {
+  padding: 18px 0px 20px 0px;
+}
 }
