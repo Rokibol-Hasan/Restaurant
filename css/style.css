@@ -60,11 +60,7 @@ nav {
 }
 .hero-content {
   color: white;
-<<<<<<< HEAD
   padding: 130px 0px;
-=======
-  padding: 100px 0px;
->>>>>>> a30c995f8193a7ecfeecc976fd016f287b3618bb
 }
 .hero-content .hero-text {
   padding: 70px 0px;
@@ -423,7 +419,6 @@ nav {
     padding: 70px;
   }
 }
-
 @media (min-width: 991px) and (max-width: 1024px) {
   .nav-flex {
     display: flex !important;
