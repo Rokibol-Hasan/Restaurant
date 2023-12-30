@@ -217,10 +217,12 @@ nav {
 }
 
 .offer-right-circle img {
-    width: 200px;
-    border-radius: 50%;
-    padding: 10px;
-    height: 200px;
+  width: 200px;
+  height: 200px;
+  overflow:hidden;
+  display:inline-block;
+  border-radius: 50%;
+    
 }
 
 /* .offer-right img {
